@@ -32,18 +32,18 @@ background contrast. All other values default to \"medium\"."
 
   ;; name        gui       256       16
   ((bg
-    (cond ((equal doom-gruvbox-dark-variant "hard") '("#1d2021" "#1e1e1e" nil))   ; bg0_h
-          ((equal doom-gruvbox-dark-variant "soft") '("#32302f" "#323232" nil))   ; bg0_s
-          (t                                        '("#282828" "#282828" nil)))) ; bg0
+    (cond ((equal doom-gruvbox-dark-variant "hard") '("#0d0d0d" "#0d0d0d" nil))   ; bg0_h
+          ((equal doom-gruvbox-dark-variant "soft") '("#0d0d0d" "#0d0d0d" nil))   ; bg0_s
+          (t                                        '("#0d0d0d" "#0d0d0d" nil)))) ; bg0
    (bg-alt
-    (cond ((equal doom-gruvbox-dark-variant "hard") '("#282828" "#282828" nil))
-          ((equal doom-gruvbox-dark-variant "soft") '("#403d3d" "#404040" nil))
-          (t                                        '("#32302f" "#323232" nil))))
+    (cond ((equal doom-gruvbox-dark-variant "hard") '("#0d0d0d" "#0d0d0d" nil))
+          ((equal doom-gruvbox-dark-variant "soft") '("#0d0d0d" "#0d0d0d" nil))
+          (t                                        '("#0d0d0d" "#0d0d0d" nil))))
    (bg-alt2    '("#504945" "#504945" "brown"      )) ; bg2 (for region, selection etc.)
 
    (base0      '("#0d0d0d" "black"   "black"      )) ; (self-defined)
-   (base1      '("#1d2021" "#1d1d1d" "brightblack")) ; bg0_h
-   (base2      '("#282828" "#282828" "brightblack")) ; bg0
+   (base1      '("#0d0d0d" "#1d1d1d" "brightblack")) ; bg0_h
+   (base2      '("#0d0d0d" "#282828" "brightblack")) ; bg0
    (base3      '("#3c3836" "#383838" "brightblack")) ; bg1
    (base4      '("#665c54" "#5c5c5c" "brightblack")) ; bg3
    (base5      '("#7c6f64" "#6f6f6f" "brightblack")) ; bg4
