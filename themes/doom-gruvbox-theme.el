@@ -41,7 +41,7 @@ background contrast. All other values default to \"medium\"."
           (t                                        '("#32302f" "#323232" nil))))
    (bg-alt2    '("#504945" "#504945" "brown"      )) ; bg2 (for region, selection etc.)
 
-   (base0      '("#0d1011" "black"   "black"      )) ; (self-defined)
+   (base0      '("#0d0d0d" "black"   "black"      )) ; (self-defined)
    (base1      '("#1d2021" "#1d1d1d" "brightblack")) ; bg0_h
    (base2      '("#282828" "#282828" "brightblack")) ; bg0
    (base3      '("#3c3836" "#383838" "brightblack")) ; bg1
